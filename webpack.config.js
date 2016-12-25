@@ -49,10 +49,6 @@ module.exports = {
       'vue$': 'vue/dist/vue.common.js'
     }
   },
-  devServer: {
-    historyApiFallback: true,
-    noInfo: true
-  },
   performance: {
     hints: false
   },
