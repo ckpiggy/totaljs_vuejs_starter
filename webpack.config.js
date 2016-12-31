@@ -6,8 +6,8 @@ module.exports = {
     app: path.join(__dirname, 'public', 'src', 'main.js')
   },
   output: {
-    path: path.resolve(__dirname, './public/js'),
-    publicPath: '/js/',
+    path: path.resolve(__dirname, './public/build'),
+    publicPath: '/build/',
     filename: '[name].js',
     chunkFilename: '[id].[hash].chunk.js'
   },
