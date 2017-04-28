@@ -1,5 +1,5 @@
 {
-  "name": "vue",
+  "name": "vue_total_starter",
   "description": "A Vue.js project",
   "version": "1.0.0",
   "author": "ckpiggy <mrgmp2004@hotmail.com>",
@@ -8,8 +8,8 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "total.js": "^2.4.0",
-    "vue": "^2.1.0"
+    "total.js": "^2.5.0",
+    "vue": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
