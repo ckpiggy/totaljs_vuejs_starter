@@ -52,7 +52,14 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
+  devtool: '#eval-source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    port: 8181,
+    proxy: {
+      '/': 'http://localhost:8000'
+    }
+  }
 }
 
 if (process.env.NODE_ENV === 'production') {
