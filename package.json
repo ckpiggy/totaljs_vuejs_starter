@@ -5,11 +5,14 @@
   "author": "ckpiggy <mrgmp2004@hotmail.com>",
   "private": true,
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "webpack-dev-server"
   },
   "dependencies": {
     "total.js": "^2.5.0",
-    "vue": "^2.3.0"
+    "vue": "^2.3.0",
+    "vue-loader": "^10.3.0",
+    "vue-template-compiler": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
