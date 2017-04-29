@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "dev": "webpack-dev-server --open"
+    "watch": "webpack --progress --hide-modules",
+    "start": "node debug.js"
   },
   "dependencies": {
     "total.js": "^2.5.0"

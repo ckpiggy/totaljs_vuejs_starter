@@ -53,12 +53,10 @@ module.exports = {
     hints: false
   },
   devtool: '#eval-source-map',
-  devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    port: 8181,
-    proxy: {
-      '/': 'http://localhost:8000'
-    }
+  watch: true,
+  watchOptions: {
+    aggregateTimeout: 500,
+    poll: 1000
   }
 }
 
