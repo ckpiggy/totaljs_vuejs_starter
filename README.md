@@ -1,2 +1,10 @@
 This is a totaljs starter with vuejs.
-Use a script tag in layout.html to install vuejs from CDN, and define "externals" in webpack.config.js.
+Usage:
+
+```npm run watch``` : start webpack and watch `./public`.
+
+```npm start```: start debug mode, auto restart server when files changed.
+
+```npm run build```: webpack build in production mode.
+
+```node release.js```: start the server in production mode.
